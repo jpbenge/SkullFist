@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{B6FC74BA-3F9A-9918-F810-B32B55E1D5CA}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_0;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity4/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity4/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\EasyTouch\Examples for EasyJoystick\Example-thirdPerson_DirectEventMode\JoystickEvent.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyJoystick\Example_FirstPerson_DirectMode\GUIFirstDirect.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyTouch\Example-FreeCam\FreeCam.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyTouch\Example-FreeCam\GuiCam.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyTouch\Example-GameController\DemonController.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyTouch\Example-GameController\GuiGameController.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyTouch\Example-ManipulationImage\GuiPhoto.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyTouch\Example-ManipulationImage\Photo.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyTouch\Example-MultiLayer\GuiLayer.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyTouch\Example-MultiLayer\TouchLayer.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyTouch\Example-Multiplefingers\GuiMultiFinger.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyTouch\Example-Multiplefingers\ObjectTouch.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyTouch\Example-Multiplefingers\ScreenTouch.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyTouch\Example-Multiplefingers\SlowRotate.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyTouch\Example-OneFinger\DoubleTap.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyTouch\Example-OneFinger\Drag.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyTouch\Example-OneFinger\GuiOneFinger.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyTouch\Example-OneFinger\LongTap.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyTouch\Example-OneFinger\Swipe.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyTouch\Example-OneFinger\Tap.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyTouch\Example-OneFinger\TouchStart.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyTouch\Example-StartMenu\GuiStartMenu.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyTouch\Example-TwoFinger\GuiTwoFinger.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyTouch\Example-TwoFinger\Pinch.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyTouch\Example-TwoFinger\Twist.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyTouch\Example-TwoFinger\TwoDoubleTap.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyTouch\Example-TwoFinger\TwoDrag.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyTouch\Example-TwoFinger\TwoLongTap.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyTouch\Example-TwoFinger\TwoSwipe.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyTouch\Example-TwoFinger\TwoTap.cs" />
+     <Compile Include="Assets\EasyTouch\Examples for EasyTouch\Example-TwoFinger\TwoTouchStart.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\EasyJoystick.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\EasyTouch.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\EasyTouchInput.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\EasyTouchTemplate.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\Finger.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\Gesture.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\MovingJoystick.cs" />
+     <Compile Include="Assets\Grapher1.cs" />
+     <Compile Include="Assets\Grapher2.cs" />
+     <Compile Include="Assets\Grapher3.cs" />
+     <Compile Include="Assets\PSD2TK2D\OrthoCameraSetter.cs" />
+     <Compile Include="Assets\ParticleSpiralEffect.cs" />
+     <Compile Include="Assets\Scripts\iGUISmartPrefab_MySmartBlukRatchet.cs" />
+     <Compile Include="Assets\Scripts\punchCollider.cs" />
+     <Compile Include="Assets\Scripts\skullfist_controller.cs" />
+     <Compile Include="Assets\Scripts\skullfist_controller_2d.cs" />
+     <Compile Include="Assets\Star.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Camera\tk2dCamera.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Camera\tk2dCameraAnchor.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Camera\tk2dCameraUtil.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Fonts\tk2dFont.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Fonts\tk2dFontData.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Fonts\tk2dTextGeomGen.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Fonts\tk2dTextMesh.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Gui\tk2dButton.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Runtime\tk2dResource.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Runtime\tk2dSystem.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dAnimatedSprite.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dBaseSprite.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dClippedSprite.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dPixelPerfectHelper.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dRuntimeSpriteCollection.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSlicedSprite.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSprite.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteAnimation.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteAnimator.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteAttachPoint.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteCollection.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteCollectionData.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteCollectionInterfaces.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteCollectionSize.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteFromTexture.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteGeomGen.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dStaticSpriteBatcher.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dTiledSprite.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dTileMap\Code\tk2dTileMap.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dTileMap\Code\tk2dTileMapBuilderUtil.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dTileMap\Code\tk2dTileMapChunks.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dTileMap\Code\tk2dTileMapColliderBuilder.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dTileMap\Code\tk2dTileMapData.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dTileMap\Code\tk2dTileMapMeshBuilder.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dTileMap_demo\Demo1\Scripts\tk2dTileMapDemoCoin.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dTileMap_demo\Demo1\Scripts\tk2dTileMapDemoFollowCam.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dTileMap_demo\Demo1\Scripts\tk2dTileMapDemoPlayer.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIBaseItemControl.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIDragItem.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIDropDownItem.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIDropDownMenu.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIHoverItem.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIMultiStateToggleButton.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIProgressBar.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIScrollableArea.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIScrollbar.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUISoundItem.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUITextInput.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIToggleButton.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIToggleButtonGroup.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIToggleControl.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUITweenItem.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIUpDownButton.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Controls\tk2dUIUpDownHoverButton.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Core\tk2dUIAudioManager.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Core\tk2dUIItem.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Core\tk2dUIManager.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Core\tk2dUIMask.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Core\tk2dUISpriteAnimator.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Core\tk2dUITime.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI\Code\Core\tk2dUITouch.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2dUI_demo\tk2dUIDemoController.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d_demo\tk2dDemoAnimController.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d_demo\tk2dDemoButtonController.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d_demo\tk2dDemoCameraController.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d_demo\tk2dDemoReloadController.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d_demo\tk2dDemoRuntimeSpriteController.cs" />
+     <Compile Include="Assets\ViewControl.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiBackgroundColorBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiBooleanBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiCheckboxOptionsSourceBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiClockTimeBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiColorBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiColorPickerBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiCommandBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiDataContext.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiDropDownListSourceBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiEnabledBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiFFNameBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiHoverImageTextureBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiImageTextureBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiItemDataContext.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiItemsSourceBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiLabelColorBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiLabelTextBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiLabelTextMultiBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiLabelTextureBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiListItemTemplate.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiListItemsSourceBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiMultiBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiNumericBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiOnAutoCompleteBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiOnClickBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiOnDoubleClickBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiOnTextCommitBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiPassiveBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiReadonlyBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiRootContext.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiSlidePanelSourceBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiSliderBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiSwitchStateBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiTabPanelSourceBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiTextBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiTextMultiBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiTextureBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiTooltipTextBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiTooltipTextMultiBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiUtils.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiValueTextBinding.cs" />
+     <Compile Include="Assets\iData\Bindings\iGuiValueTextMultiBinding.cs" />
+     <Compile Include="Assets\iData\Core\Collection.cs" />
+     <Compile Include="Assets\iData\Core\Context.cs" />
+     <Compile Include="Assets\iData\Core\Property.cs" />
+     <Compile Include="Assets\iData\Core\ReadonlyProperty.cs" />
+     <Compile Include="Assets\iData\Core\VariableContext.cs" />
+     <Compile Include="Assets\iData\Examples\iDataFractalFrameworkViewModel.cs" />
+     <Compile Include="Assets\iGUI\SampleCustomElements\iGUIMyButton.cs" />
+     <Compile Include="Assets\iGUI\SampleCustomElements\iGUIMyContainer.cs" />
+     <Compile Include="Assets\iGUI\SampleCustomElements\iGUIMyGridContainer.cs" />
+     <Compile Include="Assets\iGUI\SampleCustomElements\iGUIMyTextfield.cs" />
+     <Compile Include="Assets\iGUI\SampleCustomElements\iGUIMyTile.cs" />
+     <Compile Include="Assets\iGUI\iGUICode_FractalFramework.cs" />
+     <Compile Include="Assets\iGUI\iGUISmartPrefab_MySmartEnemy.cs" />
+     <Compile Include="Assets\iGUI\iGUISmartPrefab_MySmartObject.cs" />
+     <Compile Include="Assets\iGUI\iGUISmartPrefab_MySmartSprite.cs" />
+     <Compile Include="Assets\iTween\Plugins\iTween.cs" />
+     <Compile Include="Assets\iTween\Sample\MoveSample.cs" />
+     <Compile Include="Assets\iTween\Sample\RotateSample.cs" />
+     <Compile Include="Assets\iTween\Sample\SampleInfo.cs" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitSolidVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Goodies\TexturePacker\Exporter\2dtoolkit\exporter.xml" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\SolidVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2dUI\Shaders\DepthMask.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitPremulVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\PremulVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d_demo\Credits.txt" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\goodies\PackedTextMesh.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\Blend2TexVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2dUI\Shaders\DepthMaskSolid.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\resources\BlendVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitCutoutVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Editor\EditorUtility.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\CutoutVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d_demo\demobmfont\test.fnt" />
+     <None Include="Assets\TK2DROOT\tk2dUI_demo\Assets\Font\OldSansBlack\OldSansBlack.fnt" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitBlendVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\AdditiveVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d_demo\democameradata\source\democamerafont.fnt" />
+ <Reference Include="iGUI">
+ <HintPath>Assets\iGUI\Runtime\iGUI.dll</HintPath>
+ </Reference>
+ <Reference Include="PsdParser">
+ <HintPath>Assets\PSD2TK2D\PsdParser.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
